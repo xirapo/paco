@@ -1,0 +1,12 @@
+<nav class="main-nav">
+    {% if page.url != "/" %}
+        <a href="{{ "/" | relative_url  }}"> <span class="arrow">←</span> Home </a>
+    {% endif %}
+
+    <a href="https://github.com/xirapo">Github</a>
+
+    <a href="https://twitter.com/isdonquijote">Twitter</a>
+
+
+    <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Blog</a>
+</nav>

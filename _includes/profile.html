@@ -1,0 +1,15 @@
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+        {% if site.aboutPage %}
+            <a href="{{ "/" | relative_url  }}about">
+                <img id="avatar" class="2x" src="{{ "/" | relative_url  }}assets/images/avatar.png"/>
+            </a>
+        {% else %}
+            <img id="avatar" class="2x" src="{{ "/" | relative_url  }}assets/images/profile1.jpeg"/>
+        {% endif %}
+            <h1>{{ site.author }}</h1>
+            <h2>{{ site.description }} <span id="description_job">{{site.description_job}}</span></h2>
+        </header>
+    </section>
+</div>

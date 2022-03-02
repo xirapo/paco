@@ -71,7 +71,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 610px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -111,6 +111,11 @@ h2 {
 
 #department {
 	color: #2a9d8f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#company {
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -163,6 +168,45 @@ nav.main-nav a.cta {
 	height: 40px;
 	border-radius: 50%;
 }
+
+.list-view {
+	padding: 0 0 25px;
+}
+.list-item {
+	display: table-row;
+}
+.list-header {
+	display: table-cell;
+	vertical-align: top;
+}
+.list-detail {
+	display: table-cell;
+	width: 100%;
+	padding: 25px 0 39px;
+}
+._bubble {
+	width: 72px;
+	height: 72px;
+	border-radius: 35px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 20px;
+	margin-right: 32px;
+}
+._title-block h3 {
+	font-weight: 800 !important;
+}
+
+.linkedin {
+	font-weight: 800;
+	border-radius: 10%;
+	background-color: #0A66C2;
+	margin: -4px;
+	padding: 0px 2px 0px 2px;
+	color: #fff;
+}
+
 
 /* Typography */
 /*Accent color*/

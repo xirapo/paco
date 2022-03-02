@@ -1,6 +1,8 @@
 name: Paco
 description: "Project Coordinator at "
-description_job: "Schlesinger Group"
+description_post: "Project Coordinator at Schlesinger Group"
+company: "SchlesingerGroup"
+department: "ihut"
 meta_description: "Paco, Blogging about stuffs"
 
 aboutPage: false

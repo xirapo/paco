@@ -71,7 +71,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 610px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -111,6 +111,11 @@ h2 {
 
 #department {
 	color: #2a9d8f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#company {
 	font-weight: bold;
 	text-transform: uppercase;
 }
